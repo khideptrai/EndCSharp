@@ -9,12 +9,7 @@
     int[] MarkList = new int[3];
     public void Print()
     {
-        Console.WriteLine("Id: " + StudID);
-        Console.WriteLine("Name: " + StudName);
-        Console.WriteLine("Gender: " + StudGender);
-        Console.WriteLine("Age: " + StudAge);
-        Console.WriteLine("Class: " + StudClass);
-        Console.WriteLine("AvgMark: " + StudAvgMark);
+        Console.WriteLine($"Id: {StudID} Name: {StudName} Gender: {StudGender} Age: {StudAge} Class: {StudClass} AvgMark: {StudAvgMark}");
     }
     public int this[int index]
     {
